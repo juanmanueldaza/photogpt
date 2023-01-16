@@ -1,0 +1,51 @@
+/* Body */
+body {
+    background-color: #1c1c1c; /* dark background color */
+    color: #fff; /* white text color */
+    font-family: 'Open Sans', sans-serif; /* font for readability */
+    margin: 0; /* remove default margin */
+    padding: 0; /* remove default padding */
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+    color: #fff; /* white text color */
+    text-shadow: 2px 2px #000; /* black text shadow for added depth */
+    font-family: 'Open Sans', sans-serif; /* font for readability */
+}
+
+/* Links */
+a {
+    color: #ff0099; /* bright pink link color */
+    text-decoration: none; /* remove default underline */
+    font-family: 'Open Sans', sans-serif; /* font for readability */
+}
+
+a:hover {
+    color: #fff; /* white link color on hover */
+}
+
+/* Container */
+.container {
+    max-width: 1200px; /* set max width for content */
+    margin: 0 auto; /* center container on page */
+    padding: 50px; /* add padding for readability */
+}
+
+/* Gallery styles */
+#photo-grid {
+    display: flex; /* display images in a row */
+    flex-wrap: wrap; /* wrap images to next row if necessary */
+    justify-content: center; /* center images in row */
+    margin-bottom: 50px; /* add margin for readability */
+}
+
+#photo-grid img {
+    width: 30%; /* set width of each image */
+    margin: 10px; /* add margin for spacing */
+    box-shadow: 2px 2px 10px #000; /* add black box shadow for added depth */
+    transition: all 0.3s; /* add transition for hover effect */
+}
+
+#photo-grid img:hover {
+    transform: scale(
